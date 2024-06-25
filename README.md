@@ -10,11 +10,11 @@ This is a basic Todo App that allows users to add, view, and delete tasks. The a
 * Delete tasks from the todo list
 
 ## How to Use
-1. Run the `todo_app.py` file using Python (e.g., `python todo_app.py`)
+1. Run the `app.py` file using Python (e.g., `python app.py`)
 2. Follow the prompts to add, view, or delete tasks
 
 ## Code Structure
-The project consists of a single file, `todo_app.py`, which contains the entire codebase. The file is organized into the following sections:
+The project consists of a single file, `app.py`, which contains the entire codebase. The file is organized into the following sections:
 * `TodoApp` class: defines the Todo App's functionality
 * `main` function: provides the entry point for the app
 
