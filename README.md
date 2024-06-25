@@ -8,10 +8,11 @@ This is a basic Todo App that allows users to add, view, and delete tasks. The a
 * Add tasks to the todo list
 * View all tasks in the todo list
 * Delete tasks from the todo list
+* Update tasks in the todo list
 
 ## How to Use
 1. Run the `app.py` file using Python (e.g., `python app.py`)
-2. Follow the prompts to add, view, or delete tasks
+2. Follow the prompts to add, view, delete, or update tasks
 
 ## Code Structure
 The project consists of a single file, `app.py`, which contains the entire codebase. The file is organized into the following sections:
