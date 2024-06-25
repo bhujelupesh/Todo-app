@@ -21,6 +21,14 @@ class TodoApp:
         except IndexError:
             print("Invalid task number.")
 
+    def update_task(self, task_number):
+         try:
+            task = input("Enter new task: ")
+            self.tasks[task_number - 1] = task
+            print(f"Task {task_number} updated!")
+        except IndexError:
+            print("Invalid task number.")
+
 def main():
     app = TodoApp()
 
@@ -29,7 +37,8 @@ def main():
         print("1. Add Task")
         print("2. View Tasks")
         print("3. Delete Task")
-        print("4. Quit")
+        print("4. Update Task")
+        print("5. Quit")
 
         choice = input("Choose an option: ")
 
@@ -42,6 +51,9 @@ def main():
             task_number = int(input("Enter the task number to delete: "))
             app.delete_task(task_number)
         elif choice == "4":
+            task_number = int(input("Enter the task number to update: "))
+            app.update_task(task_number)
+        elif choice == "5":
             print("Goodbye!")
             break
         else:
